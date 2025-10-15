@@ -1,0 +1,69 @@
+# updating the verification of the phone number to use the test phone# (brent's number)
+# when we get a way to re-direct the (real) phone numbers we can revert these tests back
+
+talent_us:
+  talent:
+    email_address: test@gmail.com
+    resume_filename: test_resume.txt
+    basic_resume_doc: basic_resume.docx
+    basic_resume_pdf: basic_resume.pdf
+    first_name: John
+    last_name: Doe
+    address_1: 1350 Petrarca Drive
+    city: Kent
+    state: OH
+    postal_code: 11212
+    phone: (330) 555-5555 # original phone number
+    test_phone_number: (857) 777-7777
+    test_phone_number_saved: (857) 777-7777
+    minor_segment_id: 109
+    minor_segment: Creative Director
+    professional_title: test professional title
+    full_name: John Doe
+    full_address: 1350 Petrarca Drive Kent, OH 44243 USA
+    home_location: 'Asheville, NC, USA'
+    home_market: 'Charlotte'
+    min_hourly_value: $ 42.00
+    desired_hourly_value: $ 43.00
+    yearly_salary_value: $ 99,500.00
+    desired_yearly_salary_value: $ 150,000.00
+
+talent_uk:
+  talent:
+    email_address: testuk@gmail.com
+    resume_filename: test_resume.txt
+    basic_resume_doc: basic_resume_UK.docx
+    basic_resume_pdf: basic_resume.pdf
+    first_name: John
+    last_name: Doeuk
+    address_1: 1350 Old London Street
+    city: London
+    country: 'GB' # country id of 9
+    postal_code: SW1Y 4EN
+    phone: +44 20 7299 0202 # not used
+    non_NA_phone: +44 20 7299 0202 # data entry
+    test_phone_number: (857) 246-8690
+    test_phone_number_saved: 020 7299 0202 # display
+    minor_segment_id: 109
+    minor_segment: Creative Director
+    professional_title: London test professional title
+    full_name: John Doeuk
+    full_address: 1350 Old London Street London, SW1Y 4EN UK
+    home_location: 'London, UK'
+    home_market: 'London'
+    min_hourly_value: £ 42.00
+    desired_hourly_value: £ 43.00
+    yearly_salary_value: £ 99,500.00
+    desired_yearly_salary_value: £ 150,000.00
+    use_segment_r19: true # row content changes on talent detail
+
+test_vals:
+  min_hourly: 42
+  desired_hourly: 43
+  yearly_salary: 99500
+  desired_yearly_salary: 150000
+  opportunity: Temp-to-Perm
+  available_now: 'Immediately'
+  moats_travel_notes: 'Travel is fun!!!'
+  interview_comment: automated comment
+  interview_provided_salary: Yes

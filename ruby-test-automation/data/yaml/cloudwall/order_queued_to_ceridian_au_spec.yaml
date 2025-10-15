@@ -1,0 +1,15 @@
+order_added_to_queue_sql: "select *
+                                      from au_queue_integration
+                                      where entity_type_id = 2
+                                      and status_id is null
+                                      and create_date::date = now()::date
+                                      and entity_id = '%s';"
+
+au_talent: "SELECT person_id from person_information
+              where country_id = 8
+              and payroll_id is not null
+              and is_w2 = true
+              and home_market_id = 36
+              and employee_status_id = 20;"
+
+tax_area: 'gst_au'
